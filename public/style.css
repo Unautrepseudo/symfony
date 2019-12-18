@@ -1,0 +1,336 @@
+
+body
+{
+    background-image:url(decors.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+
+
+main
+{
+    display:flex;
+    align-items: flex-end;
+    
+}
+
+.vegantank
+{
+    display:flex;
+    animation: vegantank 180s 1;
+}
+
+@keyframes vegantank
+{
+    from
+    {
+        padding-left:0;
+    }
+    to{
+        padding-left:500vh; 
+    }
+}
+
+
+
+/***HAUT***/
+
+
+.animhaut
+{
+    height:95vh;
+}
+
+.soleil div
+{
+    border: 1px solid;
+}
+
+.soleil
+{
+    display:flex;
+    justify-content: right;
+    justify-items: end;
+}
+
+
+.coeurso
+{
+    width:20vh;
+    height:20vh;
+    border-radius:50%;
+    background-color: red;
+}
+
+
+
+
+
+
+
+/***milieu***/
+    /***benes***/
+.corps
+{
+    width:50vh;
+    height:20vh;
+    background-image: url(rouille.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.cable
+{
+    width:10vh;
+    height:1vh;
+    background-color:grey;
+    margin-top: 15vh;
+    font-size:0.5em;
+    animation:flexion 5s infinite alternate;
+}
+
+@keyframes flexion
+{
+    from
+    {
+        width:10vh;
+    }
+
+    to
+    {
+        width:6vh;
+    }
+
+}
+
+/***milieu tank***/
+
+.chassi
+{
+    width:50vh;
+    height:20vh;
+}
+
+.rowhaut
+{
+    display:flex;
+    justify-content:center;
+}
+
+.canon
+{
+    align-self: center;
+}
+
+.canon
+{
+    height:3vh;
+    width:10vh;
+    background-color:rgb(15, 15, 15);
+    border-radius: 30%
+}
+
+.tour
+{
+    height:8vh;
+    width:20vh;
+    background-color:rgb(97, 105, 97);
+    border-radius: 8%
+}
+
+.rowbas
+{
+    height:16vh;
+    width:48vh;
+    background-color:rgb(41, 73, 41);
+    border-radius:6%;
+    margin: 0 auto;
+}
+
+
+
+/***BAS***/
+    /***roue***/
+
+.bas
+{
+    
+    width: 50vh;
+    display:flex;
+    justify-content:space-around;
+}    
+
+.roue
+{
+    width: 10vh;
+    height:10vh;
+    border-radius:50%;
+    background:rgb(32, 28, 28);
+    display:flex;
+    align-items:center;
+    animation: rotation 2s infinite linear;
+    border: 1px solid grey;
+    
+}
+
+.rayon
+{
+    width:5vh;
+    height:1px;
+    background-color:rgb(65, 61, 61);
+    vertical-align: center;
+}
+
+
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(360deg);
+    }
+}
+
+        /****chenille****/
+
+.chenille
+{
+    width:50vh;
+    height:10vh;
+    border-radius: 20%;
+    background:rgb(123, 143, 36);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.intche
+{
+    width: 46vh;
+    height:6vh;
+    border:6px solid white;
+    border-radius:20%;
+    display:flex;
+    justify-content:center;
+    align-items:center;  
+}
+
+.intche2
+{
+
+    width: 40vh;
+    height:4vh;
+    border:3px solid rgb(77, 67, 67);
+    border-radius:20%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+
+}
+
+.roulette
+{
+    width:3.4vh;
+    height:3.4vh;
+    border-radius:50%;
+    background:rgb(14, 14, 13);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    animation: roulette 0.5s infinite linear;
+}
+
+.miniray
+{
+    width: 1.5vh;
+    height:1px;
+    background-color:white;
+}
+
+@keyframes roulette
+{
+    from
+    {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to
+    {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+
+.roulette2
+{
+    width:3.4vh;
+    height:1vh;
+    border-radius:50%;
+    background:rgb(14, 14, 13);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    animation: roulette2 0.6s infinite linear;
+}
+
+
+
+.miniray2
+{
+    width: 3.4vh;
+    height:1px;
+    background-color:rgb(63, 59, 59);
+}
+
+@keyframes roulette2
+{
+    from
+    {
+        -webkit-transform: rotate(359deg);
+    }
+
+    to
+    {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+
+.roulette3
+{
+    width:3vh;
+    height:1vh;
+    border-radius:50%;
+    background:rgb(14, 14, 13);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    animation: roulette3 0.3s infinite linear;
+}
+@keyframes roulette3
+{
+    from
+    {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to
+    {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+
+
+/***animation vegantank*****/
+
+.vegantank
+{
+
+}

@@ -15,6 +15,7 @@ class FriendType extends AbstractType
             ->add('dimitru')
             ->add('miyako')
             ->add('castormalin')
+            ->add('tel')
         ;
     }
 
